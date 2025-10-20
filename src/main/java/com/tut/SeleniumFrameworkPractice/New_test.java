@@ -8,17 +8,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-//import com.sun.org.apache.bcel.internal.generic.Select;
+public class New_test {
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println( "Hello World!" );
         WebDriver driver=new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.get("https://rahulshettyacademy.com/AutomationPractice/");
@@ -28,8 +23,7 @@ public class App
         driver.findElement(By.id("name")).sendKeys("MayureshPatole");
         driver.findElement(By.id("alertbtn")).click();
         driver.quit();
-        
-        
-        
-    }
+		
+	}
+
 }
