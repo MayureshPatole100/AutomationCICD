@@ -25,7 +25,7 @@ public class App
         WebElement sel=driver.findElement(By.xpath("//select[@id='dropdown-class-example']"));
         Select s=new Select(sel);
         s.selectByValue("option1");
-        driver.findElement(By.id("name")).sendKeys("Mayuresh");
+        driver.findElement(By.id("name")).sendKeys("MayureshPatole");
         driver.findElement(By.id("alertbtn")).click();
         driver.quit();
         
