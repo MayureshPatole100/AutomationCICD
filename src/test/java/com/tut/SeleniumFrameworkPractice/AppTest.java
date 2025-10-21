@@ -18,6 +18,7 @@ public class AppTest
 	@Test
 	public void TestMain() {
 	System.out.println("Hello World!");
+	System.setProperty("webdriver.chrome.driver","D:\\chromedriver-win64/chromedriver.exe");
     WebDriver driver=new ChromeDriver();
     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     driver.get("https://rahulshettyacademy.com/AutomationPractice/");
