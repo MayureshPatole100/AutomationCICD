@@ -27,6 +27,7 @@ public class AppTest
     s.selectByValue("option1");
     driver.findElement(By.id("name")).sendKeys("MayureshPatole");
     driver.findElement(By.id("alertbtn")).click();
+    System.out.println("NGROCK Test");
     driver.quit();
 }
 }
