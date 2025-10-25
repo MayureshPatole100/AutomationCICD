@@ -28,6 +28,8 @@ public class AppTest
     driver.findElement(By.id("name")).sendKeys("MayureshPatole");
     driver.findElement(By.id("alertbtn")).click();
     System.out.println("NGROCK Test Updated");
+    System.out.println("New Branch test");
+
     driver.quit();
 }
 }
